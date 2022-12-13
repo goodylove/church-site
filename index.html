@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Home</title>
+  </head>
+  <body class="w-full flex justify-center m-0 p-0 box-border cursor-pointer">
+    <!-- nav bar -->
+    <div
+      class="flex items-center justify-between w-full bg-gradient-to-l from-blue-500"
+    >
+      <!-- logo-wrapper -->
+      <div class="">
+        <img src="./images/logo.png" alt="logo" class="w-28 h-28" />
+      </div>
+      <!-- menu- wrapper -->
+      <div class="flex items-center justify-center w-4/12">
+        <div class="hambuger md:hidden lg:hidden xl:hidden 2xl:hidden">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul
+          class="list hidden flex items-center justify-between md:flex lg:flex xl:flex 2xl:flex w-11/12 text-lg font-extrabold text-stone-300"
+        >
+          <li class="no-underline hover:underline">
+            <a href="Home" class="no-underline hover:underline">Home</a>
+          </li>
+          <li><a href="About Us">Aboust Us</a></li>
+          <li><a href="Contact us">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- nav bar ends here -->
+    <script src="./app.js"></script>
+  </body>
+</html>
