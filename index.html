@@ -12,32 +12,88 @@
     <link rel="stylesheet" href="style.css" />
     <title>Home</title>
   </head>
-  <body class="w-full flex justify-center m-0 p-0 box-border cursor-pointer">
-    <!-- nav bar -->
-    <div
-      class="flex items-center justify-between w-full bg-gradient-to-l from-blue-500"
-    >
-      <!-- logo-wrapper -->
-      <div class="">
-        <img src="./images/logo.png" alt="logo" class="w-28 h-28" />
-      </div>
-      <!-- menu- wrapper -->
-      <div class="flex items-center justify-center w-4/12">
-        <div class="hambuger md:hidden lg:hidden xl:hidden 2xl:hidden">
-          <i class="fas fa-bars"></i>
+  <body
+    class="w-full flex justify-center m-0 p-0 box-border cursor-pointer h-screen"
+  >
+    <div class="w-full">
+      <!-- nav bar -->
+      <div
+        class="flex items-center justify-between w-full bg-blue-500 h-2/6 md:h-1/6 lg:h-1/6 xl:h-1/6 2xl:h-1/6"
+      >
+        <!-- logo-wrapper -->
+        <div class="">
+          <img src="./images/logo.png" alt="logo" class="w-28 h-28" />
         </div>
-        <ul
-          class="list hidden flex items-center justify-between md:flex lg:flex xl:flex 2xl:flex w-11/12 text-lg font-extrabold text-stone-300"
+        <!-- mobile menu -->
+        <div
+          class="bg-gray-200 mobl-menu md:hidden lg:hidden xl:hidden 2xl:hidden"
         >
-          <li class="no-underline hover:underline">
-            <a href="Home" class="no-underline hover:underline">Home</a>
-          </li>
-          <li><a href="About Us">Aboust Us</a></li>
-          <li><a href="Contact us">Contact Us</a></li>
-        </ul>
+          <div class="text-end pr-2">
+            <i class="fas fa-times close-icon"></i>
+          </div>
+          <ul class="w-full text-center">
+            <li class="no-underline hover:underline p-5">
+              <a href="Home" class="no-underline hover:underline">Home</a>
+            </li>
+            <li class="p-5">
+              <a
+                href="About Us"
+                class="no-underline hover:underline active:bg-amber-100"
+                >Aboust Us</a
+              >
+            </li>
+            <li class="p-5">
+              <a
+                href="Contact us"
+                class="no-underline hover:underline animate-bounce"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- mobile menu ends here -->
+        <!-- menu- wrapper -->
+        <div class="flex items-center justify-center w-4/12">
+          <div class="hambuger md:hidden lg:hidden xl:hidden 2xl:hidden">
+            <i class="fas fa-bars"></i>
+          </div>
+          <ul
+            class="list hidden flex flex-wrap items-center justify-between md:flex lg:flex xl:flex 2xl:flex w-11/12 text-lg font-extrabold text-stone-300"
+          >
+            <li class="no-underline hover:underline">
+              <a href="index.html" class="no-underline hover:underline">Home</a>
+            </li>
+            <li>
+              <a
+                href="About Us"
+                class="no-underline hover:underline active:bg-amber-100"
+                >Aboust Us</a
+              >
+            </li>
+            <li>
+              <a
+                href="Contact us"
+                class="no-underline hover:underline animate-bounce"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- nav bar ends here -->
+      <div class="h-full" id="slider">
+        <div class="flex items-center justify-center h-full">
+          <div class="flex flex-col text-center">
+            <span class="text-4xl font-bold text-stone-300">GSA</span>
+
+            <span class="text-4xl font-bold text-stone-300"
+              ><a href="https://icons8.com/icon/e8iL7hP3fpoS/quote-left"></a>
+              WHERE STARS ARE MADE</span
+            >
+          </div>
+        </div>
       </div>
     </div>
-    <!-- nav bar ends here -->
     <script src="./app.js"></script>
   </body>
 </html>

@@ -1,1 +1,34 @@
- 
+ .mobl-menu{
+    clip-path: circle(10px at 100% -10%);
+        transition: 2s;
+        background: #eab0a5;
+        /* display: grid; */
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        /* animation: moon 1s ease-in-out; */
+        /* opacity: 0; */
+        /* justify-content: center;; */
+        top:0 ;
+        right: 2px;
+ }
+ .show{
+    clip-path: circle(1500px at 100% -30%)
+ }
+
+ #slider {
+    transition: background 0.5s ease;
+    background-position: center ,
+       center ,
+       center ;
+    background-size: cover,
+       cover,
+       cover;
+    background-repeat: no-repeat,
+       no-repeat,
+       no-repeat;
+    background-image: url(images/homeslider001.jpg);
+       background-image: url(images/download.jpg),
+       
+
+ }
