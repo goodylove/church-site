@@ -26,7 +26,7 @@ function showSlider() {
 
 setInterval(() => {
   showSlider();
-}, 1000);
+}, 3000);
 const observeChurchInfo = () => {
   const observer = new IntersectionObserver(
     (enteries) => {
@@ -38,7 +38,7 @@ const observeChurchInfo = () => {
       });
     },
     {
-      threshold: 0,
+      threshold: 1,
     }
   );
 
