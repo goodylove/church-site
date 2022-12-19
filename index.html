@@ -16,10 +16,10 @@
     <div class="w-full">
       <!-- nav bar -->
       <div
-        class="flex items-center z-10 justify-between w-full bg-blue-400 md:h-1/6 lg:h-1/6 xl:h-1/6 2xl:h-1/6 fixed top-0"
+        class="flex items-center z-10 justify-between w-full h-16 bg-blue-400 md:h-16 lg:h-16 xl:h-16 2xl:h-16 fixed top-0"
       >
         <!-- logo-wrapper -->
-        <div class="">
+        <div>
           <img src="./images/logo.png" alt="logo" class="w-28 h-28" />
         </div>
 
@@ -29,7 +29,7 @@
             <i class="fas fa-bars"></i>
           </div>
           <ul
-            class="list hidden flex flex-wrap items-center justify-between md:flex lg:flex xl:flex 2xl:flex w-11/12 text-lg font-extrabold text-stone-300"
+            class="list hidden flex flex-wrap items-center justify-between md:flex lg:flex xl:flex 2xl:flex w-11/12 text-lg font-extrabold text-[#fff]"
           >
             <li class="no-underline hover:underline">
               <a href="index.html" class="no-underline hover:underline">Home</a>
@@ -81,7 +81,7 @@
       </div>
       <!-- mobile end here -->
       <!-- banner starts here -->
-      <div class="h-full relative mt-20 w-full bg-sky-100">
+      <div class="h-full relative mt-15 w-full bg-sky-100">
         <div id="slider">
           <div class="slider1 slider-1 bg-amber-100"></div>
           <div class="slider1 slider-2 bg-blue-500"></div>
@@ -157,7 +157,7 @@
           </span>
           <div class="m-10 flex items-center justify-center">
             <span
-              class="text-center m-10 bg-sky-200 p-5 rounded-md text-[#fff] font-bold text-xl"
+              class="text-center m-10 bg-blue-500 p-5 rounded-md text-[#fff] font-bold text-xl"
               >Read more on how to pay</span
             >
           </div>
@@ -165,20 +165,50 @@
       </div>
       <!-- offering and tithe ends here -->
       <!-- weekly activties info -->
-      <div class="activties-wrapper flex flex-col justify-center items-center">
+      <div
+        class="activties-wrapper flex flex-col justify-center items-center pb-20 m-20"
+      >
         <h2 class="text-2xl font-bold">OUR WEEKLY ACTIVITY</h2>
-        <div class="w-20 h-1 bg-sky-400"></div>
+        <div class="w-20 h-1 bg-blue-500"></div>
       </div>
       <!-- weekly activties  info end -->
       <!-- weekly activitie  -->
-      <div class="weekly-wrapper">
+      <div
+        class="offering-wrapper bg-sky-100 m-1 items-center justify-center w-ful grid-cols-3"
+      >
+        <div class="mon">
+          <span>MON</span>
+          <!-- <span>department meeting</span> -->
+        </div>
+        <div class="tue">
+          <span>TUES</span>
+          <!-- <span>Bible study</span> -->
+        </div>
+        <div class="wed">
+          <span>WED</span>
+          <!-- <span>Solution Hour</span> -->
+        </div>
+        <div class="thur">
+          <span>THURD</span>
+          <!-- <span>Choir Practice</span> -->
+        </div>
+        <div class="fri">
+          <span>FRI</span>
+          <!-- <span>Preparatory Class</span> -->
+        </div>
+        <div class="sat">
+          <span>SAT</span>
+          <!-- <span>Choir & Band Rehearsals</span> -->
+        </div>
+      </div>
+      <!-- <div class="weekly-wrapper flex flex-wrap">
         <div class="mon"></div>
         <div class="tue"></div>
         <div class="wed"></div>
         <div class="thur"></div>
         <div class="fri"></div>
         <div class="sat"></div>
-      </div>
+      </div> -->
       <!-- weekly activitie  end-->
     </div>
     <script src="./app.js"></script>
