@@ -16,7 +16,7 @@
     <div class="w-full">
       <!-- nav bar -->
       <div
-        class="flex items-center z-10 justify-between w-full h-16 bg-blue-400 md:h-16 lg:h-16 xl:h-16 2xl:h-16 fixed top-0"
+        class="flex items-center z-10 justify-between w-9/12 md:w-full ld:w-full xl:w-full 2xl:w-full pl-1 pr-5 h-16 bg-blue-400 md:h-16 lg:h-16 xl:h-16 2xl:h-16 fixed top-0"
       >
         <!-- logo-wrapper -->
         <div>
@@ -24,12 +24,14 @@
         </div>
 
         <!-- menu- wrapper -->
-        <div class="flex items-center justify-center w-4/12">
-          <div class="hambuger md:hidden lg:hidden xl:hidden 2xl:hidden">
+        <div class="flex items-center justify-center md:w-6/12">
+          <div
+            class="hambuger md:hidden lg:hidden xl:hidden 2xl:hidden text-2xl text-[#fff]"
+          >
             <i class="fas fa-bars"></i>
           </div>
           <ul
-            class="list hidden flex flex-wrap items-center justify-between md:flex lg:flex xl:flex 2xl:flex w-11/12 text-lg font-extrabold text-[#fff]"
+            class="list hidden flex flex-wrap items-center justify-evenly md:flex lg:flex xl:flex 2xl:flex w-11/12 text-lg font-extrabold text-[#fff]"
           >
             <li class="no-underline hover:underline">
               <a href="index.html" class="no-underline hover:underline">Home</a>
@@ -54,7 +56,7 @@
       <!-- nav bar ends here -->
       <!-- mobile menu -->
       <div
-        class="bg-gray-200 mobl-menu md:hidden lg:hidden xl:hidden 2xl:hidden h-full mt-20"
+        class="bg-gray-200 mobl-menu md:hidden lg:hidden xl:hidden 2xl:hidden h-screen mt-20"
       >
         <div class="text-end pr-2">
           <i class="fas fa-times close-icon"></i>
@@ -102,22 +104,24 @@
       <!-- banner ends here -->
       <!--  church info -->
       <div class="church-info-wrapper flex w-full justify-center items-center">
-        <div class="flex flex-wrap text-center justify-evenly">
-          <div class="church-info1">
+        <div
+          class="grid grid-cols-1 gap-x-1 text-center justify-evenly w-11/12 md:grid-cols-2 md:w-9/12 md: gap-x-6"
+        >
+          <div class="church-info1 w-full text-sm md:w-10/12 p-7 md:m-10">
             <span>MANDATE/MISSION</span>
             <p>
               To heal the souls of men phsically and spiritually through God's
               word by transformation and manifestation of his power
             </p>
           </div>
-          <div class="church-info1">
+          <div class="church-info1 w-full text-sm md:w-10/12 p-7 md:m-10">
             <span>VISION</span>
             <p>
               making stars in different field and facets of life by discovering
               their God ordained purpose and manifesting it
             </p>
           </div>
-          <div class="church-info1">
+          <div class="church-info1 w-full text-sm md:w-10/12 p-7 md:m-10">
             <span>PILLARS</span>
             <ul>
               <li>The word</li>
@@ -125,7 +129,7 @@
               <li>Praise</li>
             </ul>
           </div>
-          <div class="church-info1">
+          <div class="church-info1 w-full text-sm md:w-10/12 p-7 md:m-10">
             <span>CORE VALUES</span>
             <ul>
               <li>Discipline</li>
@@ -145,19 +149,19 @@
           <div class="text-center flex items-center justify-center mt-10">
             <span class="w-20 h-1 bg-blue-700 text-center"></span>
           </div>
-          <span class="text-center font-bold text-3xl p-9"
+          <span class="text-center font-bold text-2xl p-9 md:3xl"
             >OFFERING AND TITHES</span
           >
-          <span class="flex justify-center text-xl">
-            <p class="text-center md:w-[50%]">
+          <span class="flex justify-center text-sm md:text-lg">
+            <p class="text-center md:w-[50%] pl-3">
               To pay your offerings and tithes through the church, please We
               encourage all to pay their tithes and offerings either through
               transfer to the church Account
             </p>
           </span>
-          <div class="m-10 flex items-center justify-center">
+          <div class="mt-10 mb-10 flex items-center justify-center w-full">
             <span
-              class="text-center m-10 bg-blue-500 p-5 rounded-md text-[#fff] font-bold text-xl"
+              class="text-center bg-blue-500 rounded-md text-[#fff] p-3 font-bold text-sm md:text-lg w-12/12"
               >Read more on how to pay</span
             >
           </div>
@@ -174,41 +178,36 @@
       <!-- weekly activties  info end -->
       <!-- weekly activitie  -->
       <div
-        class="offering-wrapper bg-sky-100 m-1 items-center justify-center w-ful grid-cols-3"
+        class="offering-wrapper bg-sky-100 m-1 w-12/12 grid-cols-3 activities grid justify-items-center"
       >
-        <div class="mon">
+        <div
+          class="mon text-center flex items-center justify-center relative bg-amber-100"
+        >
           <span>MON</span>
           <!-- <span>department meeting</span> -->
         </div>
-        <div class="tue">
+        <div class="tue text-center flex items-center justify-center">
           <span>TUES</span>
           <!-- <span>Bible study</span> -->
         </div>
-        <div class="wed">
+        <div class="wed text-center flex items-center justify-center">
           <span>WED</span>
           <!-- <span>Solution Hour</span> -->
         </div>
-        <div class="thur">
-          <span>THURD</span>
+        <div class="thur text-center flex items-center justify-center">
+          <span>THUR</span>
           <!-- <span>Choir Practice</span> -->
         </div>
-        <div class="fri">
+        <div class="fri text-center flex items-center justify-center">
           <span>FRI</span>
           <!-- <span>Preparatory Class</span> -->
         </div>
-        <div class="sat">
+        <div class="sat text-center flex items-center justify-center">
           <span>SAT</span>
           <!-- <span>Choir & Band Rehearsals</span> -->
         </div>
       </div>
-      <!-- <div class="weekly-wrapper flex flex-wrap">
-        <div class="mon"></div>
-        <div class="tue"></div>
-        <div class="wed"></div>
-        <div class="thur"></div>
-        <div class="fri"></div>
-        <div class="sat"></div>
-      </div> -->
+
       <!-- weekly activitie  end-->
     </div>
     <script src="./app.js"></script>
