@@ -12,46 +12,17 @@
     <link rel="stylesheet" href="style.css" />
     <title>Home</title>
   </head>
-  <body
-    class="w-full flex justify-center m-0 p-0 box-border cursor-pointer h-screen"
-  >
+  <body class="flex m-0 p-0 box-border cursor-pointer h-screen">
     <div class="w-full">
       <!-- nav bar -->
       <div
-        class="flex items-center justify-between w-full bg-blue-500 h-2/6 md:h-1/6 lg:h-1/6 xl:h-1/6 2xl:h-1/6"
+        class="flex items-center z-10 justify-between w-full bg-blue-400 md:h-1/6 lg:h-1/6 xl:h-1/6 2xl:h-1/6 fixed top-0"
       >
         <!-- logo-wrapper -->
         <div class="">
           <img src="./images/logo.png" alt="logo" class="w-28 h-28" />
         </div>
-        <!-- mobile menu -->
-        <div
-          class="bg-gray-200 mobl-menu md:hidden lg:hidden xl:hidden 2xl:hidden"
-        >
-          <div class="text-end pr-2">
-            <i class="fas fa-times close-icon"></i>
-          </div>
-          <ul class="w-full text-center">
-            <li class="no-underline hover:underline p-5">
-              <a href="Home" class="no-underline hover:underline">Home</a>
-            </li>
-            <li class="p-5">
-              <a
-                href="About Us"
-                class="no-underline hover:underline active:bg-amber-100"
-                >Aboust Us</a
-              >
-            </li>
-            <li class="p-5">
-              <a
-                href="Contact us"
-                class="no-underline hover:underline animate-bounce"
-                >Contact Us</a
-              >
-            </li>
-          </ul>
-        </div>
-        <!-- mobile menu ends here -->
+
         <!-- menu- wrapper -->
         <div class="flex items-center justify-center w-4/12">
           <div class="hambuger md:hidden lg:hidden xl:hidden 2xl:hidden">
@@ -81,7 +52,36 @@
         </div>
       </div>
       <!-- nav bar ends here -->
-      <div class="h-full relative">
+      <!-- mobile menu -->
+      <div
+        class="bg-gray-200 mobl-menu md:hidden lg:hidden xl:hidden 2xl:hidden h-full mt-20"
+      >
+        <div class="text-end pr-2">
+          <i class="fas fa-times close-icon"></i>
+        </div>
+        <ul class="w-full text-center">
+          <li class="no-underline hover:underline p-5">
+            <a href="Home" class="no-underline hover:underline">Home</a>
+          </li>
+          <li class="p-5">
+            <a
+              href="About Us"
+              class="no-underline hover:underline active:bg-amber-100"
+              >Aboust Us</a
+            >
+          </li>
+          <li class="p-5">
+            <a
+              href="Contact us"
+              class="no-underline hover:underline animate-bounce"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+      </div>
+      <!-- mobile end here -->
+      <!-- banner starts here -->
+      <div class="h-full relative mt-20 w-full bg-sky-100">
         <div id="slider">
           <div class="slider1 slider-1 bg-amber-100"></div>
           <div class="slider1 slider-2 bg-blue-500"></div>
@@ -99,7 +99,88 @@
           </div>
         </div>
       </div>
+      <!-- banner ends here -->
+      <!--  church info -->
+      <div class="church-info-wrapper flex w-full justify-center items-center">
+        <div class="flex flex-wrap text-center justify-evenly">
+          <div class="church-info1">
+            <span>MANDATE/MISSION</span>
+            <p>
+              To heal the souls of men phsically and spiritually through God's
+              word by transformation and manifestation of his power
+            </p>
+          </div>
+          <div class="church-info1">
+            <span>VISION</span>
+            <p>
+              making stars in different field and facets of life by discovering
+              their God ordained purpose and manifesting it
+            </p>
+          </div>
+          <div class="church-info1">
+            <span>PILLARS</span>
+            <ul>
+              <li>The word</li>
+              <li>Prayer</li>
+              <li>Praise</li>
+            </ul>
+          </div>
+          <div class="church-info1">
+            <span>CORE VALUES</span>
+            <ul>
+              <li>Discipline</li>
+              <li>Uniqueness</li>
+              <li>Diligence</li>
+              <li>focus</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- church-info ends here -->
+      <!-- offering and tithe -->
+      <div
+        class="offering-wrapper bg-sky-100 flex m-1 items-center justify-center w-ful flex-coll"
+      >
+        <div class="offering flex flex-col">
+          <div class="text-center flex items-center justify-center mt-10">
+            <span class="w-20 h-1 bg-blue-700 text-center"></span>
+          </div>
+          <span class="text-center font-bold text-3xl p-9"
+            >OFFERING AND TITHES</span
+          >
+          <span class="flex justify-center text-xl">
+            <p class="text-center md:w-[50%]">
+              To pay your offerings and tithes through the church, please We
+              encourage all to pay their tithes and offerings either through
+              transfer to the church Account
+            </p>
+          </span>
+          <div class="m-10 flex items-center justify-center">
+            <span
+              class="text-center m-10 bg-sky-200 p-5 rounded-md text-[#fff] font-bold text-xl"
+              >Read more on how to pay</span
+            >
+          </div>
+        </div>
+      </div>
+      <!-- offering and tithe ends here -->
+      <!-- weekly activties info -->
+      <div class="activties-wrapper flex flex-col justify-center items-center">
+        <h2 class="text-2xl font-bold">OUR WEEKLY ACTIVITY</h2>
+        <div class="w-20 h-1 bg-sky-400"></div>
+      </div>
+      <!-- weekly activties  info end -->
+      <!-- weekly activitie  -->
+      <div class="weekly-wrapper">
+        <div class="mon"></div>
+        <div class="tue"></div>
+        <div class="wed"></div>
+        <div class="thur"></div>
+        <div class="fri"></div>
+        <div class="sat"></div>
+      </div>
+      <!-- weekly activitie  end-->
     </div>
-    <script src="./appdd.js"></script>
+    <script src="./app.js"></script>
   </body>
 </html>
