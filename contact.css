@@ -1,0 +1,44 @@
+ .mobl-menu {
+     clip-path: circle(10px at 100% -10%);
+     transition: 2s;
+     background: #eab0a5;
+     /* display: grid; */
+     height: 100%;
+     width: 100%;
+     position: absolute;
+     z-index: 100;
+     /* animation: moon 1s ease-in-out; */
+     /* opacity: 0; */
+     /* justify-content: center;; */
+     top: -68px;
+     ;
+     ;
+     right: 2px;
+ }
+
+ .show {
+     clip-path: circle(1500px at 100% -30%);
+     height: 100%;
+ }
+ input{
+    border:  2px solid #ddd;
+    padding: 5px;
+    width: 100%;
+    margin-top: 8px;
+    border-radius: 3px;
+    outline:none;
+ }
+ textarea{
+    border: 2px solid #ddd;
+    width: 100%;
+    margin-top: 4px;
+    border-radius: 3px;
+    outline: none;
+padding: 5px;
+ }
+ .btn{
+    background-color: rgb(49, 139, 248);
+    color: white;
+    padding:3px 8px;
+    border-radius: 2px;
+ }

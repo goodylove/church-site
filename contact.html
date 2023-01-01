@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="contact.css" />
+    <title>Contact Us-GSA</title>
+  </head>
+  <body class="flex m-0 p-0 box-border cursor-pointer h-screen">
+    <div class="w-full">
+      <!-- nav bar -->
+      <div
+        class="flex items-center z-10 relative justify-between w-full md:w-full ld:w-full xl:w-full 2xl:w-full pl-1 pr-5 h-16 bg-blue-400 md:h-16 lg:h-16 xl:h-16 2xl:h-16 fixed top-0"
+      >
+        <!-- logo-wrapper -->
+        <div>
+          <img src="./images/logo.png" alt="logo" class="w-28 h-28" />
+        </div>
+
+        <!-- menu- wrapper -->
+        <div class="flex items-center justify-center md:w-6/12">
+          <div
+            class="hambuger md:hidden lg:hidden xl:hidden 2xl:hidden text-2xl text-[#fff]"
+          >
+            <i class="fas fa-bars"></i>
+          </div>
+          <ul
+            class="list hidden flex flex-wrap items-center justify-evenly md:flex lg:flex xl:flex 2xl:flex w-11/12 text-lg font-extrabold text-[#fff]"
+          >
+            <li class="no-underline hover:underline">
+              <a href="index.html" class="no-underline hover:underline">Home</a>
+            </li>
+            <li>
+              <a
+                href="About Us"
+                class="no-underline hover:underline active:bg-amber-100"
+                >Aboust Us</a
+              >
+            </li>
+            <li>
+              <a
+                href="Contact us"
+                class="no-underline hover:underline animate-bounce"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- nav bar ends here -->
+      <!-- mobile menu -->
+      <div
+        class="bg-gray-200 mobl-menu md:hidden lg:hidden xl:hidden 2xl:hidden h-screen mt-20 absolute"
+      >
+        <div class="text-end pr-2">
+          <i class="fas fa-times close-icon"></i>
+        </div>
+        <ul class="w-full text-center">
+          <li class="no-underline hover:underline p-5">
+            <a href="Home" class="no-underline hover:underline">Home</a>
+          </li>
+          <li class="p-5">
+            <a
+              href="About Us"
+              class="no-underline hover:underline active:bg-amber-100"
+              >Aboust Us</a
+            >
+          </li>
+          <li class="p-5">
+            <a
+              href="Contact us"
+              class="no-underline hover:underline animate-bounce"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+      </div>
+      <!-- mobile end here -->
+      <!-- about starts here -->
+      <div
+        class="flex justify-center items-center h-[50%] bg-sky-100 mt-15 w-full md:h-[80%]"
+      >
+        <div class="text-4xl text-bold">Contact US</div>
+      </div>
+      <!-- about  ends here -->
+      <!--  church info -->
+      <div
+        class="church-info-wrapper flex w-full justify-center items-center mt-20 h-[80%]"
+      >
+        <div
+          class="grid grid-cols-1 gap-x-1 md:justify-items-center w-11/12 md:grid-cols-2 md:w-9/12 md:gap-x-6 h-full"
+        >
+          <div class="church-info1 w-ful h-[59%]">
+            <div>
+              <input type="text" placeholder="Name" />
+              <input type="text" placeholder="Email" />
+              <input type="text" placeholder="Subject" />
+              <textarea
+                name=""
+                id=""
+                cols="10"
+                rows="5"
+                placeholder="Message"
+              ></textarea>
+              <button class="btn">Contact</button>
+            </div>
+          </div>
+          <!-- contact-info -->
+          <div class="church-info1 w-full text-sm md:w-11/12">
+            <div class="call-location-wrapper">
+              <div class="call">
+                <span><i class="fas fa-phone"></i></span>
+                <span>Call us</span>
+              </div>
+              <div class="location">
+                <div class="holder">
+                  <span
+                    ><i class="fa fa-map-marker" aria-hidden="true"></i
+                  ></span>
+                  <span>Location</span>
+                </div>
+                <p>
+                  #266,Ajagbodudu Road Opposite Chife Umuokoro Upstair Delta
+                  StateNigeria
+                </p>
+              </div>
+            </div>
+            <div class="our-email-wrapper">
+              <div class="email">
+                <div class="holder">
+                  <span><i class="fa fa-email" aria-hidden="true"></i></span>
+                  <span>Eail</span>
+                </div>
+              </div>
+              <div class="working">
+                <div class="holder">
+                  <span><i class="fa fa-clock-o" aria-hidden="true"></i></span>
+                  <span>Working Hour</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- church-info ends here -->
+      <!-- pastor -->
+      <!-- <div class="flex flex-col justify-center items-center">
+        <span class="text-bold text-2xl font-extrabold">OUR PASTOR</span>
+        <div class="flex items-center justify-start text-start mb-5">
+          <span class="w-10 h-1 bg-blue-700 text-start"></span>
+        </div>
+      </div> -->
+      <div
+        class="offering-wrapper flex flex-col justify-center items-center w-[100%] relative"
+      >
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63533.63950503221!2d5.7989565827938625!3d5.588811060664095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1041af1a73b9754b%3A0xa0cc0433b066a420!2s333110%2C%20Oghara%2C%20Delta!5e0!3m2!1sen!2sng!4v1671981266083!5m2!1sen!2sng"
+          class="w-[90%]"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+          <!-- <span class="absolute top-0 left-30 p-5"> Gods_Stars_Assembly</span> -->
+        </iframe>
+      </div>
+      <!-- pastor ends here -->
+
+      <!-- weekly activitie  -->
+
+      <div
+        class="offering-wrapper bg-sky-100 flex items-center justify-center flex-coll"
+      >
+        <div class="offering flex flex-col relative">
+          <div class="text-center flex items-center justify-center mt-10">
+            <span class="w-20 h-1 bg-blue-700 text-center"></span>
+          </div>
+          <span class="text-center font-bold text-2xl p-9 md:3xl"
+            >Want To Talk To Us?</span
+          >
+          <span class="flex justify-center text-sm md:text-lg mb-20">
+            Click the button below
+          </span>
+          <div
+            class="flex items-center justify-center w-full absolute bottom-[-26px] left-0"
+          >
+            <span
+              class="hover:bg-sky-500 text-center bg-blue-500 rounded-md text-[#fff] p-3 font-bold text-sm md:text-lg w-12/12"
+            >
+              <a href="tel:+2347032269282">Contact Us Today</a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <!-- last-section -->
+      <div
+        class="offering-wrapper bg-blue-400 grid grid-cols-1 pl-5 md:grid-cols-2 md:justify-items-center lg:grid-cols-3 lg:items-center xl:grid-cols-4 2xl:grid-cols-4 w-full md:items-center text-[#FFD700]"
+      >
+        <div class="log w-[300px] h-[300px]">
+          <img src="./images/logo.png" alt="logo" w-[40%] h-[0] />
+        </div>
+        <div class="tag-cloud">
+          <h2 class="font-bold pb-4">Tag Cloud</h2>
+          <ul>
+            <li>pray</li>
+            <li>heal</li>
+            <li>word</li>
+            <li>gospel</li>
+            <li>prayer</li>
+          </ul>
+        </div>
+        <div class="categories">
+          <h2 class="font-bold pb-4">Categories</h2>
+          <ul>
+            <li>Generalupdate</li>
+            <li>Devetion</li>
+            <li>Event</li>
+            <li>Sermon video</li>
+            <li>sunday school</li>
+          </ul>
+        </div>
+        <div class="contact-details flex flex-col">
+          <h2 class="font-bold pb-1">Contact Details</h2>
+          <ul>
+            <li>#266,Ajagbodudu Road</li>
+            <li>Opposite Chife</li>
+            <li>Umuokoro Upstair,</li>
+            <li>Delta StateNigeria.</li>
+            <li class="">
+              <a href="tel:+2347032269282">07032269282</a>&nbsp;<a
+                href="tel:+23408137241832"
+                >08137241832</a
+              >
+            </li>
+          </ul>
+          <span class="w-[100%] flex items-center">
+            <ul class="flex">
+              <li class="pl-2 hover:text-sky-600 hover:text-4xl">
+                <a
+                  href="https://www.facebook.com/God'sStar Assembly"
+                  target="_blank"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+              </li>
+              <li class="pl-2 hover:text-sky-600 hover:text-4xl">
+                <a
+                  href="https://www.instagram.com/gods_stars_assembly"
+                  target="_blank"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+              <li class="pl-2 hover:text-sky-600 hover:text-4xl">
+                <a
+                  href="https://www.telegram.com/gods_stars_assembly"
+                  target="_blank"
+                  ><i class="fab fa-telegram"></i
+                ></a>
+              </li>
+            </ul>
+          </span>
+        </div>
+      </div>
+
+      <!-- weekly activitie  end-->
+    </div>
+    <script src="./contact.js"></script>
+  </body>
+</html>
