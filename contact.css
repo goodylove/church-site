@@ -1,4 +1,8 @@
- .mobl-menu {
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mobl-menu {
      clip-path: circle(10px at 100% -10%);
      transition: 2s;
      background: #eab0a5;
@@ -21,10 +25,10 @@
      height: 100%;
  }
  input{
-    border:  2px solid #ddd;
+    border:  1px solid #ddd;
     padding: 5px;
     width: 100%;
-    margin-top: 8px;
+    margin-top: 10px 0;
     border-radius: 3px;
     outline:none;
  }
@@ -41,4 +45,5 @@ padding: 5px;
     color: white;
     padding:3px 8px;
     border-radius: 2px;
+    margin: 5px 0;
  }
